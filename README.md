@@ -21,7 +21,7 @@ Every push to `main` builds and deploys the site automatically.
 
 ## Customize
 
-- Replace the event title and contact details in each HTML file.
+- Replace the event title in each HTML file.
 - Duplicate `guides/notion-mcp.html` when adding another tool lab.
 - Add the new page to the card grid in `index.html`.
 - Keep participant instructions short and provide a visible success check.
