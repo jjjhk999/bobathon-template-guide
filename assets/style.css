@@ -115,6 +115,8 @@ h3 { font-size: 1.25rem; }
 
 .section-heading p { margin: 0; color: var(--muted); }
 
+.guide-section + .guide-section { padding-top: 6rem; }
+
 .card-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -327,4 +329,51 @@ h3 { font-size: 1.25rem; }
   .section-heading { align-items: flex-start; flex-direction: column; }
   .screenshot-slot.screenshot-compact,
   .screenshot-slot.screenshot-medium { width: 100%; }
+}
+
+.capability-summary {
+  max-width: 900px;
+  margin-top: 2rem;
+  padding: 1.5rem 1.75rem;
+  background: #edf5ff;
+  border-left: 4px solid var(--blue);
+}
+
+.capability-summary h2 {
+  margin-bottom: .75rem;
+  color: #0043ce;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.capability-summary ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.capability-summary li + li {
+  margin-top: .4rem;
+}
+
+.mcp-shortcut {
+  max-width: 900px;
+  margin-top: 1.25rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.mcp-shortcut h2 {
+  margin-bottom: .4rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.mcp-shortcut p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+.mcp-shortcut .prompt {
+  margin-bottom: 0;
 }
