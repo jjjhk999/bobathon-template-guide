@@ -21,7 +21,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          cp index.html basic-mcp.html notion-mcp.html context7-mcp.html troubleshooting.html _site/
+          cp index.html brainstorming.html basic-mcp.html notion-mcp.html context7-mcp.html exa-mcp.html troubleshooting.html _site/
           cp -R assets _site/assets
           cp -R images _site/images
           touch _site/.nojekyll
