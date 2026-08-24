@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+set -eu
+
+PORT="${PORT:-4173}"
+echo "Bobathon guide: http://127.0.0.1:${PORT}/"
+exec python3 -m http.server "$PORT" --bind 127.0.0.1
