@@ -1,2 +1,8 @@
 .DS_Store
 _site/
+tests/
+test-results/
+node_modules/
+**/package-lock.json
+**/package.json
+**/playwright.config.js
